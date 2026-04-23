@@ -79,7 +79,6 @@ function loop() {
   requestAnimationFrame(loop);
 }
 
-Ball.prototype.update block;
 Ball.prototype.collisionDetect = function() {
   for (let j = 0; j < balls.length; j++) {
     if (!(this === balls[j])) {
@@ -98,4 +97,4 @@ balls[i].update(); line:
 balls[i].collisionDetect();
 
 ball.prototype.update; 
-{balls[i].update()+
+{balls[i].update()+}
